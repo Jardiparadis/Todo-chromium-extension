@@ -1,0 +1,25 @@
+.panel-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+    padding: 12px;
+}
+
+.task-input {
+    margin-right: 6px;
+}
+
+.task-label {
+    overflow-wrap: break-word;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+}
+
+@font-face{
+    font-family: Reef;
+    src: url('../bootstrap/fonts/bootstrap-icons.woff2'), url('../bootstrap/fonts/bootstrap-icons.woff2') format('woff2');
+}
